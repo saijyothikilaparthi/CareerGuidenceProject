@@ -53,7 +53,8 @@ video{
 
 .title1{
     color: black;
-    font-style: italic;
+    font-size: 50px;
+    margin:0% 35%;
 }
 .imgtitle h1{
     color: azure;
