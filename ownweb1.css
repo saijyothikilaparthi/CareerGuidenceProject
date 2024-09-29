@@ -27,7 +27,9 @@ nav .details .login{
 
 }
 .details .login:hover{
-    transform: scale(1.09);
+    background-color:transparent;
+    color:white;
+    transform: scale(0.9);
 }
 nav .details .signup{
     background-color:transparent;
@@ -40,7 +42,9 @@ nav .details .signup{
 
 }
 .details .signup:hover{
-    transform: scale(1.09);
+    background-color:rgb(255, 0, 0);
+    color:black;
+    transform: scale(0.9);
 }
 video{
     width: 100%;
