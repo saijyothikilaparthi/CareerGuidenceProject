@@ -42,7 +42,7 @@ nav .details .signup{
 
 }
 .details .signup:hover{
-    background-color:rgb(255, 0, 0);
+    background-color:rgb(208, 32, 32);
     color:black;
     transform: scale(0.9);
 }
