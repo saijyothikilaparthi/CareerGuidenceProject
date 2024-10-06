@@ -28,7 +28,7 @@ nav .details .login{
 }
 .details .login:hover{
     background-color:transparent;
-    color:white;
+    color:rgb(220, 214, 214);
     transform: scale(0.9);
 }
 nav .details .signup{
