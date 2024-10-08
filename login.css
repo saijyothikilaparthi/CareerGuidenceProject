@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+body{
+    background-color: #fff;
+    color: black;
+    
+}
+body .log{
+    height: 500px;
+    width: 700px;
+    background-color:aqua ;
+    border:2px solid;
+    margin: 10% 29%;
+    padding: 20px 90px;
+    border-radius: 0.9%;
+    border-color:black;
+    
+}
+label h2{
+    color:black;
+}
+input{
+width: 500px;
+height: 40px;
+
+}
+.save{
+background-color:black;
+color: #fff;
+}
