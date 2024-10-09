@@ -7,6 +7,51 @@ body{
     background-color: aqua;
     color:black ;
 }
+
 .card{
     display: flex;
+justify-content: space-between;
+
 }
+.intro{
+    max-width: 1100px;
+    width: 1100px;
+border: 2px solid;
+background-color:aliceblue;
+border-color:black;
+padding: 50px;
+margin: 50px;
+border-radius: 1%;
+}
+.main{
+    font-size: 100px;
+    color: deeppink;
+    }
+.paths{
+background-color: transparent;
+border: 2px;
+border-color:aliceblue ;
+padding: 50px;
+margin: 50px;
+justify-content: space-between;
+
+}
+
+.path{
+    justify-content: space-between;
+   border:2px solid white ; 
+   padding: 50px;
+   margin: 50px;
+   background-color: #f96bb7;
+   border-radius:1%;
+}
+ol li{
+    color:white ;
+    font-size: 20px;
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+}
+
+
