@@ -1,57 +1,136 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    box-sizing:border-box;
+    box-sizing: border-box;
+   
 }
 body{
-    background-color: aqua;
-    color:black ;
+    background-color: rgb(153, 214, 194);
 }
 
-.card{
+nav{
+    background-color: rgb(11, 0, 0);
+    border: 2px solid rgb(83, 82, 82);
+}
+nav ul{
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
+    
+}
+nav li{
+    padding: 20px;
+}
+nav ul img{
+    height: 5%;
+    width: 5%;
+    max-width: 10%;
+    padding: 5px;
+}
 
+nav ul li a{
+    font-size: 15px;
+    color: #fff;
+    
 }
-.intro{
-    max-width: 1100px;
-    width: 1100px;
-border: 2px solid;
-background-color:aliceblue;
-border-color:black;
-padding: 50px;
-margin: 50px;
-border-radius: 1%;
+a{
+    text-decoration: none;
 }
-.main{
-    font-size: 100px;
-    color: deeppink;
-    }
+
+img {
+    height: 150px;
+    width: 300px;
+    border-radius: 2%;
+}
 .paths{
-background-color: transparent;
-border: 2px;
-border-color:aliceblue ;
-padding: 50px;
-margin: 50px;
-justify-content: space-between;
+    padding: 20px;
+}
+
+
+
+.path {
+    display: flex;
+    padding: 10px 60px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-bottom: 1px;
 
 }
 
-.path{
-    justify-content: space-between;
-   border:2px solid white ; 
-   padding: 50px;
-   margin: 50px;
-   background-color: #f96bb7;
-   border-radius:1%;
+.path::-webkit-scrollbar {
+    display: none;
 }
-ol li{
-    color:white ;
-    font-size: 20px;
+
+.subpath {
+    padding: 20px;
+    background-color:white;
+    margin: 10px;
+    border-radius: 2%;
+
 }
-.more{
+
+
+.name {
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    margin: 10px 30px;
+}
+
+.pathsname {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    margin: 10px 30px;
+}
+
+.he {
+    border-radius: 0.5%;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.op {
+    border-radius: 0.5%;
+    background-color:white;
+    color:black;
+    padding: 5px;
+    margin: 20px;
+}
+.moreinfo a{
+    text-decoration: none;
+}
+
+.vdo {
+    background-color: #fcd0bd;
     display: flex;
     justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 10px;
+
+}
+
+video {
+    height: 10%;
+    width: 70%;
+    border-radius: 25px;
 }
 
 
+
+.head {
+    padding: 80px 60px;
+}
+
+.vdo .head h1 {
+    font-size: 80px;
+}
+
+.vdo .head h2 {
+    font-size: 50px;
+}
+
+.vdo .head h3 {
+    font-size: 30px;
+}
