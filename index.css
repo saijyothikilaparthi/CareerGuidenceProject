@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(153, 214, 194);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+nav {
+    background-color: rgb(11, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+nav img {
+    height: 70px;
+    width: 70px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.details {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    color: #f3eeee;
+
+}
+
+.details button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(202, 248, 240);
+}
+.details button a{
+    
+    color: black;
+    text-decoration: none;
+}
+.details button:hover {
+    background-color: rgb(4, 197, 145);
+    
+    color: black;
+}
+
+/* Banner */
+.banner {
+    background: linear-gradient(180deg, #181818 10%, hsla(0, 0%, 9%, .98) 15%, hsla(0, 0%, 9%, .97) 20%, hsla(0, 0%, 9%, .95) 25%, hsla(0, 0%, 9%, .94) 30%, hsla(0, 0%, 9%, .92) 35%, hsla(0, 0%, 9%, .9) 40%, hsla(0, 0%, 9%, .87) 45%, hsla(0, 0%, 9%, .82) 50%, hsla(0, 0%, 9%, .75) 55%, hsla(0, 0%, 9%, .63) 60%, hsla(0, 0%, 9%, .45) 65%, hsla(0, 0%, 9%, .27) 75%, hsla(0, 0%, 9%, .15) 80%, hsla(0, 0%, 9%, .08) 95%, hsla(0, 0%, 9%, .03) 100%, hsla(0, 0%, 9%, 0)), url("OIG4.jpeg");
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner .wc {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.banner .scroll {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.quote {
+    margin-bottom: 5rem;
+    color: #f3eeee;
+
+}
+
+.quote h1 { font-size: 3rem; 
+color: #fb3838;
+}
+.quote h2 { font-size: 2.75rem;
+    color: #fa5454;
+}
+.quote h3 { font-size: 2.5rem; 
+    color: #fa7777;
+}
+.quote h4 { font-size: 2.25rem; 
+    color: #fc8d8d;
+}
+.quote h5 { font-size: 2.1rem; 
+    color: #facbcb;
+}
+.quote h6 { font-size: 2rem; 
+    color: #ede6e6;
+}
+
+/* Cards Section */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+.card a{text-decoration: none;}
+.card a h1{
+    font-size: 1.5rem;
+color: #050000;
+}
+.cardcnt {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardcnt img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.cardcnt .info {
+    color: #000;
+}
+
+.cardcnt .info p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.cardcnt .info button {
+    background-color: rgb(137, 250, 220);
+    color: rgb(14, 1, 14);
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 200px;
+    margin: 1rem auto 0;
+    display: block;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(48, 50, 50);
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    margin-bottom: -40px;
+}
+
+footer .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .col {
+    margin: 1rem 0;
+}
+
+footer h3 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+footer a {
+    color: #918f8f;
+    font-size: 0.9rem;
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.footer-bottom {
+    background-color: #050000;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    nav .links {
+        justify-content: center;
+
+    }
+    
+    .banner {
+        min-height: 400px;
+    }
+    
+    .quote h1 { font-size: 5rem; }
+    .quote h2 { font-size: 3rem; }
+    .quote h3 { font-size: 2.5rem; }
+    .quote h4 { font-size: 2rem; }
+    .quote h5 { font-size: 1.5rem; }
+    .quote h6 { font-size: 1rem; }
+
+    .card {
+        margin: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    nav .details {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    nav .details button {
+        width: 45%;
+        text-align: center;
+    }
+    
+    .cardcnt img {
+        height: 200px;
+    }
+    
+    footer .row {
+        grid-template-columns: 1fr;
+    }
+}

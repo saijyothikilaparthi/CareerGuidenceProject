@@ -8,30 +8,54 @@ body{
     background-color: rgb(153, 214, 194);
 }
 
-nav{
+nav {
     background-color: rgb(11, 0, 0);
-    border: 2px solid rgb(83, 82, 82);
-}
-nav ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    
-}
-nav li{
-    padding: 20px;
-}
-nav ul img{
-    height: 5%;
-    width: 5%;
-    max-width: 10%;
-    padding: 5px;
+    align-items: center;
+    padding: 0.5rem;
 }
 
-nav ul li a{
-    font-size: 15px;
-    color: #fff;
+nav .links {
     
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
 }
+
+nav img {
+    height: 70px;
+    width: 70px;
+}
+
+nav a {
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(153, 214, 194);
+}
+
+nav .details .login {
+    background-color: rgb(153, 214, 194);
+    color: black;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav .details .login:hover {
+    background-color: hsla(0, 0%, 20%, 0.45);
+    color: white;
+}
+
 a{
     text-decoration: none;
 }
@@ -134,3 +158,43 @@ video {
 .vdo .head h3 {
     font-size: 30px;
 }
+footer{
+    background-color:rgb(48, 50, 50);
+     color: #666;
+     padding-top: 1px;
+     margin-bottom: -100px;
+ }
+ footer h3{
+     font-size: 1.2rem;
+     font-weight: 500;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0 0 50px 0;
+     color: hsl(0, 14%, 99%);
+ }
+ footer .row{
+     display: flex;
+    
+     padding: 10px 0px;
+     margin-top: -100px;
+     margin-bottom: 100px;
+     margin-left: 150px;
+ }
+ footer .row .col{
+     margin: 5px 50px;
+ }
+ footer .row .col a{
+     text-decoration: none;
+     color: #918f8f;
+     font-size: 15px;
+     padding: 8px;
+     display: block;
+ }
+ 
+ .footer-bottom{
+     background-color: #050000;
+     width:100%;
+     color: #fcfbfb;
+     padding: 20px;
+     margin-top: 0%;
+ 
+ }

@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(153, 214, 194)
+}
+nav {
+    background-color: rgb(11, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+nav .links {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+nav img {
+    height: 70px;
+    width: 70px;
+}
+
+nav a {
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(153, 214, 194);
+}
+
+nav .details .login {
+    background-color: rgb(153, 214, 194);
+    color: black;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav .details .login:hover {
+    background-color: hsla(0, 0%, 20%, 0.45);
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+.banner
+{
+    background-image: url("https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    max-width: 100%;
+    height: 500px;
+    margin-top: -55px;
+
+}
+.banner h1{
+font-size: 60px;
+font-weight: 700;
+color: black;
+padding: 80px 300px 0 300px;
+text-align: center;
+
+}
+.banner p{
+font-size: 40px;
+font-weight: 900 ;
+color: white;
+padding:2px 20px;
+text-align: center;
+} 
+/* Header */
+
+
+/* Main Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 1em;
+    justify-content: center;
+}
+
+/* Card Styles */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5em;
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    
+    color: black;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin: 0 -1.5em 1em -1.5em;
+    text-align: center;
+}
+
+.card ul {
+    list-style-type: square;
+    padding-left: 20px
+}
+footer{
+    background-color:rgb(48, 50, 50);
+     color: #666;
+    
+     margin-bottom: -100px;
+ }
+ footer h3{
+     font-size: 1.2rem;
+     font-weight: 500;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0 0 50px 0;
+     color: hsl(0, 14%, 99%);
+ }
+ footer .row{
+     display: flex;
+    
+     padding: 10px 0px;
+     
+     margin-bottom: 50px;
+     
+ }
+ footer .row .col{
+     margin: 5px 1px;
+
+ }
+ footer .row .col a{
+     text-decoration: none;
+     color: #918f8f;
+     font-size: 15px;
+     padding: 8px;
+     display: block;
+ }
+ 
+ .footer-bottom{
+     background-color: #050000;
+     width:100%;
+     color: #fcfbfb;
+    margin-bottom: 0px;
+     
+ 
+ }
